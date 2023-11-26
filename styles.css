@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,700&family=Poppins:ital,wght@0,500;0,800;1,600;1,800&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.5cm;
+    margin-top: 0.5cm;
+}
+#cart-logo{
+    display: flex;
+    position: relative;
+    right: 1.5cm;
+    font-family:'Rubik', sans-serif;
+}
+#cart-logo img{
+    height: 30px;
+    width: 1.3cm;
+}
+#kidz-logo img{
+    height: 40px;
+    width: 4cm;
+}
+
+.background-pic{
+    background: url("assets/kw-background.png");
+    background-size: cover;
+    height: 12.4cm;
+    width: 100%;
+}
+.headings{
+    color: white;
+    margin-top: 0.5cm;
+    width: 8cm;
+    position: relative;
+    top: 1cm;
+    left: 1.4cm;
+    line-height: 2cm;
+    font-size: 25px;
+}
+
+.card-container{
+    margin-top: 4cm;
+}
+.image-container img{
+    height: 5cm;
+    width: 4cm;
+}
+.add{
+    background-color:#4895ef;
+    height: 0.8cm;
+    width: 1.7cm;
+    font-size: 16px;
+    max-width: 200px;
+    position: relative;
+    left: 2cm;
+    bottom: 0.8cm;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-container{
+    line-height: 2cm;
+}
+
+.section h2{
+    position: relative;
+    margin-left: 2cm;
+    top:0.3cm
+}
+.image-container{
+    line-height: 0.8cm;
+}
+
+.footer{
+    margin-top: 3cm;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    
+}
+
+.footer img{
+    border-radius: 50%;
+    height: 3cm;
+    width: 3cm;
+}
+.text{
+    text-align: right;
+    padding-top: 1cm;
+}
+
+.image2 img{
+    height: 6cm;
+    width: 6.5cm;
+}
+.add img{
+    height: 17px;
+    width: 20px;
+}
+.image2{
+    margin-left: 0;
+}
+#heart{
+    color: red;
+}
+
+@media only screen and (max-width:600px) {
+    .background-pic{
+        height: 200px;
+    }
+    .headings{
+        line-height: 1cm;
+        font-size: 15px;
+    }
+    .card-container{
+        margin-top: 2cm;
+    }
+    .image-container img{
+        height: 12cm;
+        width: 10cm;
+        margin-left: 1.7cm;
+    }
+    .flex{
+        display: block;
+        text-align: center;
+    }
+    .section h2{
+        text-align: center;
+        font-size: 35px;
+    }
+    .add{
+        left: 9cm;
+        width: 3cm;
+    }
+    .add img{
+        height: 20px;
+        width: 23px;
+        position: relative;
+        bottom: 0.6cm;
+    }
+    .price{
+        margin-right: 4cm;
+    }
+    
+}
+
+
+
